@@ -1,0 +1,24 @@
+### prefix is the name of the resource group
+### it is also used to create unique names for all resources within the group
+# prefix = ""
+
+# location = "westeurope"
+
+### https://learn.microsoft.com/en-us/azure/virtual-machines/sizes
+# vm_size = "Standard_B2s"
+
+### set the disk size bigger than the default if required
+# vm_disk_size = 8
+
+### name and password for the user to be created on the serve
+### (this user will be added to the sudoers group)
+# admin_username = "user01"
+# admin_password = ""
+
+### by default, the ability to log in with a password (via ssh) is disabled
+# ssh_key = "~/.ssh/id_rsa.pub"
+
+### the default network settings
+# address_space = "10.0.0.0/16"
+# subnet_prefix = "10.0.0.0/24"
+
